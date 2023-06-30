@@ -1,0 +1,51 @@
+/*! Default font sizes for mobile devices */
+.h1 {font-size: 24px;}
+.h2 {font-size: 20px;}
+.h3 {font-size: 18px;}
+.h4 {font-size: 16px;}
+.h5 {font-size: 14px;}
+.h6 {font-size: 12px;}
+
+/*! Breakpoint: min-width: 400px */
+@media (min-width: 400px) {
+
+  .h1 {font-size: 28px;}
+  .h2 {font-size: 24px;}
+  .h3 {font-size: 20px;}
+  .h4 {font-size: 18px;}
+  .h5 {font-size: 16px;}
+  .h6 {font-size: 14px;}
+}
+
+/*! Breakpoint: min-width: 768px */
+@media (min-width: 768px) {
+    
+  .h1 {font-size: 36px;}
+  .h2 {font-size: 32px;}
+  .h3 {font-size: 28px;}
+  .h4 {font-size: 24px;}
+  .h5 {font-size: 20px;}
+  .h6 {font-size: 18px;}
+}
+
+/*! Breakpoint: min-width: 992px */
+@media (min-width: 992px) {
+
+  .h1 {font-size: 48px;}
+  .h2 {font-size: 40px;}
+  .h3 {font-size: 36px;}
+  .h4 {font-size: 32px;}
+  .h5 {font-size: 28px;}
+  .h6 {font-size: 24px;}
+}
+
+/*! Breakpoint: min-width: 1200px */
+@media (min-width: 1200px) {
+
+  .h1 {font-size: 60px;}
+  .h2 {font-size: 52px;}
+  .h3 {font-size: 48px;}
+  .h4 {font-size: 44px;}
+  .h5 {font-size: 40px;}
+  .h6 {font-size: 36px;}
+}
