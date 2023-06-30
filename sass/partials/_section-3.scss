@@ -1,0 +1,15 @@
+.section-3{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    
+    h1{
+        color: $text-color-1;
+    }
+    p{
+        color: $text-color-4;
+    }
+    button{
+        @include button($text-color-1);
+    }
+}
