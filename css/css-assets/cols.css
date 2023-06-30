@@ -1,5 +1,5 @@
 
-.adabtable-container{padding-left: .3rem; padding-right: .3rem;}
+.adabtable-container{padding-left: 1.4rem; padding-right: 1.4rem;}
 
 @media only screen and (min-width: 400px){
     .adabtable-container{padding-left: .5rem; padding-right: .5rem;}

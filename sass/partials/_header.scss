@@ -1,0 +1,66 @@
+.header{
+    height: 100vh;
+    background: url('../../components/img/img\ 2.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    nav{
+        color: $text-color-3;
+        transition:color $transition;
+
+        .logo{
+            font-family: $font-1;
+            height: $nav-height;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button{
+                color: $text-color-3;
+                padding: 1rem;
+                border: none;
+                background: none;
+                transition:color $transition;
+            }
+        }
+
+        .links{
+            text-align: center;
+            display: none;
+            color: $text-color-4;
+            
+            a{
+                display: block;
+                text-decoration: none;
+                padding: 1rem 0;
+            }
+
+            @media only screen and (min-width: 768px){
+                display: block;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                
+                a{
+                    color: $text-color-3;
+                    padding: 1rem 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .display-nav-links{
+        background-color: $bg-color-4 !important;
+        color: $text-color-4 !important;
+
+        button{
+            color: $text-color-4 !important;
+        }
+        
+        .links{
+            display: block !important;
+        }
+    }
+}
