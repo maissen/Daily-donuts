@@ -1,0 +1,23 @@
+.second_section{
+
+    .row{
+        div:nth-child(1){
+            background-color: $bg-color-3;
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+
+            h1:nth-child(1){
+                color: $text-color-4;
+            }
+            h1:nth-child(2){
+                color: $text-color-1;
+            }
+        }
+
+        div:nth-child(2){
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
