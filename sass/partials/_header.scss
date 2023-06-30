@@ -3,6 +3,7 @@
     background: url('../../components/img/img\ 2.jpeg') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 
     nav{
         color: $text-color-3;
@@ -47,6 +48,17 @@
                 }
             }
         }
+    }
+
+    .banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        color: $text-color-1;
+        font-weight: bold;
     }
 }
 
